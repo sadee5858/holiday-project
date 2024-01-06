@@ -1,0 +1,593 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 239, 243);
+}
+.container{
+    margin: 0 5%;
+}
+.container1{
+    background-color: white;
+    width: 100%;
+    height:  1200px;
+    display: flex;
+}
+.container1 .sidebar{
+    width: 88px;
+    padding: 16px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+}
+.container1 .sidebar .gear{
+ margin-bottom: 25px;
+}
+.container1 .sidebar .frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.container1 .sidebar text{
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    flex-shrink: 0;
+    color: #ffffff;
+    background-color: #615EF0;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+
+}
+.container1 .message-panel{
+    box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.08);
+    width: 349px;
+    height: 1200px;
+    
+}
+.container1 .message-panel header{
+    width: 349px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    gap: 120px;
+    
+
+}
+.container1 .message-panel header .num span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container1 .message-panel header .num text{
+   width: 12px;
+   height: 18px;
+   border-radius: 50%;
+   padding: 5px;
+   background-color: #EDF2F7;
+   color: var(--Black, #000);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 600;
+}
+.container1 .message-panel header .plus{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #615EF0;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+}
+#line{
+    width: 349px;
+    height: 1px;
+    background-color: #CBD5E0;
+    border: none;
+
+}
+ .container1 .message-panel .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 12px;
+        height: 90px;
+        width: 305px;
+        margin: 10px;
+
+ }
+
+.container1 .message-panel .box .frame{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+   
+}
+ 
+.container1 .message-panel .box p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 21px;
+    font-weight: 700;
+   
+}
+.container1 .message-panel .box span {
+    opacity: 40%;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container1 .message-panel .box label{
+    gap: 10px;
+}
+.container1 .message-panel .box .orange{
+    padding: 2px 8px;
+    height: 18px;
+    width: 53px;
+    color: var(--orange-orange-600, #DD6B20);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:18px;
+    border-radius: 12px;
+    background: var(--orange-orange-200, #FEEBC8);
+}
+.container1 .message-panel .box .green{
+    padding: 2px 8px;
+    height: 18px;
+    width: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:18px;
+    border-radius: 12px;
+    color: var(--green-green-600, #38A169);
+    background: var(--orange-orange-200, #C6F6D5);
+}
+.container1 .message-panel .box .ash{
+    padding: 2px 8px;
+    height: 18px;
+    width: 75px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:18px;
+    border: 1px solid #CBD5E0;
+    border-radius: 12px;
+    opacity: 0.6;
+}
+
+#dor{
+    background-color: #EDF2F7;
+    border-radius: 12px;
+}
+#time{
+    margin-top: 13px;
+    opacity: 40%;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+
+.message-panel .search{
+    width: fill;
+    height: 40px;
+    background-color: #CBD5E0;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin: 12px 24px;
+    opacity: 40%;
+
+}
+.message-panel .search text{
+    width: 118px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.container1 .message-panel1{
+    box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.08);
+    width: 640px;
+    height: 1200px;
+}
+.container1 .message-panel1 header .box1{
+    width: fill;
+    height: 40px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1 .message-panel1 header .box1 .box-a{
+    display: flex;
+    gap: 15px;
+}
+.container1 .message-panel1 header .box1 .img{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+.container1 .message-panel1 header .box1 .online{
+    width: 188px;
+    height: 43px;
+    margin-bottom: 43px;
+}
+.container1 .message-panel1 header .box1 .online p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--Black, #000);
+}
+.container1 .message-panel1 header .box1 .online span{
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.6;
+}
+
+.container1 .message-panel1 header .box1 .box-b{
+    width:60px ;
+    height: 30px ;
+    padding: 10px 16px;
+    background-color: var(--primary-10, rgba(97, 94, 240, 0.10)); 
+    border-radius: 8px ;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.container1 .message-panel1 header .box1 .box-b text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--Primary, #615EF0);
+}
+#line1{
+    width: 640px;
+    height: 1px;
+    background-color: #CBD5E0;
+    border: none; 
+}
+
+.container1 .message-panel1 .main-box .message-list{
+    padding: 15px 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 170px;
+
+}
+
+.container1 .message-panel1 .main-box .message-list .first{
+    width: 592px;
+    height: 131px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 16px;
+}
+.container1 .message-panel1 .main-box .message-list .first .list{
+    display: flex;
+    flex-direction: column;
+}
+.container1 .message-panel1 .main-box .message-list .first .list label{
+    width: fit-content;
+    height: fit-content;
+    background-color: #F1F1F1;
+    padding: 8px 16px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.container1 .message-panel1 .main-box .message-list .second{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 16px;
+    margin: 53px 0;
+}
+.container1 .message-panel1 .main-box .message-list .second .list{
+    display: flex;
+    flex-direction: column;
+}
+.container1 .message-panel1 .main-box .message-list .second .list label{
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    background-color: #615EF0;
+    padding: 8px 16px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+
+}
+.container1 .message-panel1 .message-panel1-box .message-panel1-down{
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+
+    
+}
+.container1 .message-panel1 .message-panel1-box .message-panel1-down .message-panel1-down-label{
+    margin-left: 30px;
+    display: flex;
+    gap: 0 350px;
+    height: 30px;
+    width: fit-content;
+    border:1px solid #CBD5E0;
+    border-radius: 12px;
+    padding: 14px;
+    align-items: center;
+    
+} 
+.container1 .message-panel1 .message-panel1-box .message-panel1-down .message-panel1-down-label label{
+
+    opacity: 40%;
+    font-size: 18px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+ 
+
+.container1 .message-panel2{
+    width: 362px;
+    height: 1200px;
+}
+.container1 .message-panel2 header .box-c{
+    width: fill;
+    height: 40px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+} 
+.container1 .message-panel2 header .box-c h3{
+    width: 92px;
+    height: 30px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--Black, #000);
+}
+.container1 .message-panel2 header .box-c .img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(240, 239, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#line2{
+    width: fill;
+    height: 1px;
+    background-color: #CBD5E0;
+    border: none; 
+}
+#line3{
+    width: fill;
+    height: 1px;
+    background-color: #CBD5E0;
+    border: none; 
+}
+
+.container1 .message-panel2 .team {
+   padding: 0 16px;
+
+}
+
+.container1 .message-panel2 .team .team-title p{
+    display: flex;
+    width: fit-content;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #000;
+}
+.container1 .message-panel2 .team .team-title span{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+    padding:  5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #EDF2F7;
+    color: #000;
+    font-size: 12px;
+}
+.container1 .message-panel2 .team .team-members .team-members1 {
+  width: 100%;
+  height: 60px;
+  padding: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  margin-bottom: 22px;
+   gap: 16px;
+
+}
+.container1 .message-panel2 .team .team-members .team-members1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    color: #000;
+
+}
+.container1 .message-panel2 .team .team-members .team-members1 span{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    opacity: 0.6;
+}
+
+.container1 .message-panel2 .team-check {
+    padding: 0 16px;
+ }
+ .container1 .message-panel2 .team-check .team-title{
+    display: flex;
+    align-items: center;
+    width: 76px ;
+    height: 22px;
+    margin: 20px 0;
+ }
+ 
+ .container1 .message-panel2 .team-check .team-title p{
+    display: flex;
+    width: fit-content;
+    height: 21px;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #000;  
+ }
+ .container1 .message-panel2 .team-check .team-title span{
+    margin-left: 20px;
+    width: 29px;
+    height: 20px;
+    padding:  2px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #EDF2F7;
+    color: #000;
+    font-size: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .msg-items{
+    margin-right: 15px;
+}
+#pdf{
+    margin-right: 85px;
+}
+#png{
+    margin-right: 20px;
+}
+#docx{
+    margin-right: 68px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .pdf{
+    width: 40px;
+    height: 40px;
+    background-color: #FFF5F5;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .pdf1{
+    width: 40px;
+    height: 40px;
+    background-color: #F0FFF4;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .pdf2{
+    width: 40px;
+    height: 40px;
+    background-color:#EBF8FF;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .pdf3{
+    width: 40px;
+    height: 40px;
+    background-color: #FAF5FF;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .load{
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-10, rgba(97, 94, 240, 0.10));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .msg-items p{
+    color: var(--Black, #000);
+    font-family: Metropolis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+.container1 .message-panel2 .team-check .team-items .items1 .msg-items span{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Metropolis;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    word-spacing: 5px;
+}
+
+
+
+
+
+
